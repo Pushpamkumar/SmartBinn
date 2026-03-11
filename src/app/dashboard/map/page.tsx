@@ -27,7 +27,12 @@ import { binsService } from '@/services/firestore'
 import { Bin } from '@/lib/types'
 import { getBinStatusColor, getRelativeTime, formatDistance, calculateDistance } from '@/utils/helpers'
 import { optimizeRoute } from '@/utils/routeOptimization'
-import MapComponent from '@/components/dashboard/MapComponent'
+import dynamic from 'next/dynamic'
+
+const MapComponent = dynamic(
+  () => import('@/components/dashboard/MapComponent'),
+  { ssr: false }
+)
 
 export default function MapPage() {
   const mapRef = useRef<HTMLDivElement>(null)
