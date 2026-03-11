@@ -1,0 +1,54 @@
+{
+  "name": "smartdustbin",
+  "version": "1.0.0",
+  "description": "Intelligent Waste Monitoring System - Production-grade SaaS",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.13",
+    "axios": "^1.6.5",
+    "clsx": "^2.0.0",
+    "express": "^4.18.2",
+    "firebase": "^10.8.0",
+    "firebase-admin": "^12.1.0",
+    "framer-motion": "^10.16.16",
+    "js-cookie": "^3.0.5",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^0.376.0",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^2.10.3",
+    "socket.io-client": "^4.7.2",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.4.1",
+    "workbox-window": "^7.0.0",
+    "zustand": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/leaflet": "^1.9.15",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.32",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
